@@ -8,7 +8,7 @@ import AboutMe from './components/AboutMe';
 function App() {
 
   return (
-      <div className='bg-[#faedcd]'>
+      <div className='bg-[#DDF2FD]'>
         <Header />
 
         <main>

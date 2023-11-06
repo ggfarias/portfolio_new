@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import personalImage from '../../images/img-portfolio.jpeg';
+import personalImage from '../../assets/images/img-portfolio.jpeg';
 
 const StyledAboutMe = styled.section`
     display: flex;
@@ -25,7 +25,9 @@ const AboutMe = () => {
             <StyledAboutMe>
                 <div className="text_container">
                     <h1>About Me</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur a iste dolores deleniti.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur eaque eveniet magnam itaque necessitatibus sapiente rerum esse, expedita ratione fuga ex consequatur exercitationem aspernatur amet aut soluta reprehenderit quae aliquam?</p>
+                    <br />
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sapiente deleniti, nisi quae optio ipsa, ad a corrupti doloribus.</p>
                 </div>
                 
 

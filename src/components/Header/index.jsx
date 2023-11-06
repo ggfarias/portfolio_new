@@ -1,13 +1,12 @@
 import styled from "styled-components";
-import commandIcon from '../../images/command-icon.svg'
+import commandIcon from '../../assets/images/command-icon.svg'
 
 const StyledHeader = styled.header`
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
-    padding-top: 1.5rem;
-    background-color: #faedcd;
+    padding: 1.5rem 3rem 1rem 3rem;
+    background-color: #DDF2FD;
     
     li a {
         font-size: 1.25rem;
@@ -17,7 +16,7 @@ const StyledHeader = styled.header`
 
 const Header = () => {
     return(
-        <StyledHeader>
+        <StyledHeader className="container mx-auto justify-between">
             <img src={commandIcon} alt="" className='max-w-12 max-h-12'/>
             <nav>
                 <ul className='flex gap-5'>
