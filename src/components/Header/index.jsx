@@ -11,6 +11,7 @@ const StyledHeader = styled.header`
     li a {
         font-size: 1.25rem;
         font-weight: 700;
+        padding: 0rem 0.5rem;
     }
 `
 
@@ -20,11 +21,11 @@ const Header = () => {
             <img src={commandIcon} alt="" className='max-w-12 max-h-12'/>
             <nav>
                 <ul className='flex gap-5'>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About Me</a></li>
-                    <li><a href="">Technologies</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="" className="hover:text-[#164863]">Home</a></li>
+                    <li><a href="" className="hover:text-[#164863]">About Me</a></li>
+                    <li><a href="" className="hover:text-[#164863]">Technologies</a></li>
+                    <li><a href="" className="hover:text-[#164863]">Projects</a></li>
+                    <li><a href="" className="hover:text-[#164863]">Contact</a></li>
                 </ul>
           </nav>
         </StyledHeader>

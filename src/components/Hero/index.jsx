@@ -50,8 +50,8 @@ const HeroSection = () => {
 
                     
                     <div>
-                        <a href='https://www.linkedin.com/in/gustavo-farias29/' target="_blank"><img src={linkedinIcon2} alt="LinkedIn" className="w-20 h-20"/></a>
-                        <a href="https://github.com/ggfarias" target="_blank"><img src={githubIcon} alt="GitHub" className="w-20 h-20" /></a>
+                        <a href='https://www.linkedin.com/in/gustavo-farias29/' target="_blank"><img src={linkedinIcon2} alt="LinkedIn" className="w-20 h-20 hover:scale-110 duration-200"/></a>
+                        <a href="https://github.com/ggfarias" target="_blank"><img src={githubIcon} alt="GitHub" className="w-20 h-20 hover:scale-110 duration-200" /></a>
                     </div>
                 </section>
                 <section>
