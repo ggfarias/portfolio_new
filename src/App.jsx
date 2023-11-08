@@ -24,7 +24,7 @@ function App() {
           <Contact />
         </main>
         <footer>
-          <div className='container mx-auto px-12 py-20 text-center flex flex-col gap-4'>
+          <div className='container mx-auto px-12 py-20 text-center flex flex-col gap-2'>
             <div className='flex flex-col gap-4 md:flex-row md:justify-between md:items-center md:gap-0'>
               <h2>Created by Gustavo Farias | 2023 </h2>
               <div className='flex flex-row'>
@@ -39,7 +39,7 @@ function App() {
                 </a>
               </div>
             </div>
-            <hr className='bg-[#164863] h-1 '/>
+            <hr className='bg-[#164863] h-0.5'/>
             <p>Made with: React | TailwindCSS | Styled Components</p>
           </div>
         </footer>

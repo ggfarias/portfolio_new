@@ -30,9 +30,13 @@ const AboutMe = () => {
             <StyledAboutMe>
                 <div className="text_container">
                     <h1>About Me</h1>
-                    <p>I'm a self taught Software Developer, who seeks to solve real world problems with technology. I'm currently learning about Web Development with emphasis on Front-end, and creating responsive web apps.</p>
+                    <p>I'm a self taught Software Developer, who seeks to solve real world problems with technology. I'm currently learning about Web Development with emphasis on Front-end, and creating web applications as my personal projects.</p>
                     <br />
-                    <p>I have previous work experience with Project Management, Team Leadership and Tech Recruiting, when I worked in a Scale-up startup for almost 3 years. Check out my <a href='https://www.linkedin.com/in/gustavo-farias29/' target="_blank">LinkedIn</a> for more info.</p>
+                    <p>My background comes from business management, but I always had a passion for technology, so I decided that I should pursuit my dreams and start working with software development and digital products.</p>
+                    <br />
+                    <p>My previous work experience was in a scale-up startup, a fast-paced environment, in which I had the opportunity to work with Project Management, Team Leadership and Tech Recruiting for almost 3 years.</p>
+                    <br />
+                    <p>You can check out my <a href='https://www.linkedin.com/in/gustavo-farias29/' target="_blank">LinkedIn</a> for more info.</p>
                 </div>
                 
 
