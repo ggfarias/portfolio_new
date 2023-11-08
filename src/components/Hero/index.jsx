@@ -1,9 +1,8 @@
 
 import styled from "styled-components";
-import linkedinIcon from '../../assets/images/linkedin-icon.svg';
-import linkedinIcon2 from '../../assets/images/linkedin-logo.png';
-import githubIcon from '../../assets/images/github-icon.svg';
 import heroImage from '../../assets/images/hero-image.svg';
+import { FaMedium } from 'react-icons/fa6';
+import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 
 
 const StyledHeroSection = styled.section`
@@ -30,12 +29,7 @@ const StyledHeroSection = styled.section`
         margin-top: 1rem;
         display: flex;
         flex-direction: row;
-        gap: 1rem;
-    }
-
-    div img {
-        max-width: 3rem;
-        max-height: 3rem;
+        gap: 1.125rem;
     }
 `
 
@@ -50,8 +44,9 @@ const HeroSection = () => {
 
                     
                     <div>
-                        <a href='https://www.linkedin.com/in/gustavo-farias29/' target="_blank"><img src={linkedinIcon2} alt="LinkedIn" className="w-20 h-20 hover:scale-110 duration-200"/></a>
-                        <a href="https://github.com/ggfarias" target="_blank"><img src={githubIcon} alt="GitHub" className="w-20 h-20 hover:scale-110 duration-200" /></a>
+                        <a href='https://www.linkedin.com/in/gustavo-farias29/' target="_blank"> <AiFillLinkedin className="w-20 h-20 max-w-[3rem] max-h-[3rem] hover:scale-125 duration-200"/></a>
+                        <a href="https://github.com/ggfarias" target="_blank"><AiFillGithub className="w-20 h-20 max-w-[3rem] max-h-[3rem] hover:scale-125 duration-200"/></a>
+                        <a href="https://medium.com/@gustavocgf" target="_blank"><FaMedium className="w-20 h-20 max-w-[3rem] max-h-[3rem] hover:scale-125 duration-200" /></a>
                     </div>
                 </section>
                 <section>
